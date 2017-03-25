@@ -1,0 +1,6 @@
+framework module Pods_db_Nizer {
+  umbrella header "Pods-db-Nizer-umbrella.h"
+
+  export *
+  module * { export * }
+}

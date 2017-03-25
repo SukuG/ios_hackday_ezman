@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45B278ACEE91E94B7C9C541C /* Pods_db_Nizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF5DDDF095E31604589A94F /* Pods_db_Nizer.framework */; };
+		ACE80B3B1E85FD890039920F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B3A1E85FD890039920F /* AppDelegate.swift */; };
+		ACE80B3D1E85FD890039920F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B3C1E85FD890039920F /* ViewController.swift */; };
+		ACE80B401E85FD890039920F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE80B3E1E85FD890039920F /* Main.storyboard */; };
+		ACE80B431E85FD890039920F /* db_Nizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B411E85FD890039920F /* db_Nizer.xcdatamodeld */; };
+		ACE80B451E85FD890039920F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE80B441E85FD890039920F /* Assets.xcassets */; };
+		ACE80B481E85FD890039920F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE80B461E85FD890039920F /* LaunchScreen.storyboard */; };
+		ACE80B501E860BA20039920F /* projectsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B4F1E860BA20039920F /* projectsListTableViewCell.swift */; };
+		ACE80B521E8618240039920F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B511E8618240039920F /* FirstViewController.swift */; };
+		ACE80B541E8634F50039920F /* AddNewProjetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B531E8634F50039920F /* AddNewProjetViewController.swift */; };
+		ACE80B6D1E863EEC0039920F /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B571E863EEC0039920F /* IQNSArray+Sort.swift */; };
+		ACE80B6E1E863EEC0039920F /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B581E863EEC0039920F /* IQUIScrollView+Additions.swift */; };
+		ACE80B6F1E863EEC0039920F /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B591E863EEC0039920F /* IQUITextFieldView+Additions.swift */; };
+		ACE80B701E863EEC0039920F /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B5A1E863EEC0039920F /* IQUIView+Hierarchy.swift */; };
+		ACE80B711E863EEC0039920F /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B5B1E863EEC0039920F /* IQUIViewController+Additions.swift */; };
+		ACE80B721E863EEC0039920F /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B5C1E863EEC0039920F /* IQUIWindow+Hierarchy.swift */; };
+		ACE80B731E863EEC0039920F /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B5E1E863EEC0039920F /* IQKeyboardManagerConstants.swift */; };
+		ACE80B741E863EEC0039920F /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B5F1E863EEC0039920F /* IQKeyboardManagerConstantsInternal.swift */; };
+		ACE80B751E863EEC0039920F /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B601E863EEC0039920F /* IQKeyboardManager.swift */; };
+		ACE80B761E863EEC0039920F /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B621E863EEC0039920F /* IQKeyboardReturnKeyHandler.swift */; };
+		ACE80B771E863EEC0039920F /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B641E863EEC0039920F /* IQTextView.swift */; };
+		ACE80B781E863EEC0039920F /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B661E863EEC0039920F /* IQBarButtonItem.swift */; };
+		ACE80B791E863EEC0039920F /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B671E863EEC0039920F /* IQPreviousNextView.swift */; };
+		ACE80B7A1E863EEC0039920F /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B681E863EEC0039920F /* IQTitleBarButtonItem.swift */; };
+		ACE80B7B1E863EEC0039920F /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B691E863EEC0039920F /* IQToolbar.swift */; };
+		ACE80B7C1E863EEC0039920F /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B6A1E863EEC0039920F /* IQUIView+IQKeyboardToolbar.swift */; };
+		ACE80B7D1E863EEC0039920F /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACE80B6C1E863EEC0039920F /* IQKeyboardManager.bundle */; };
+		ACE80B7F1E8647570039920F /* LOGO-2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE80B7E1E8647570039920F /* LOGO-2.png */; };
+		ACE80B811E8652990039920F /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B801E8652990039920F /* APIHelper.swift */; };
+		ACE80B831E86758C0039920F /* addTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80B821E86758C0039920F /* addTaskViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03374237AD2D46AEACD008FD /* Pods-db-Nizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-db-Nizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-db-Nizer/Pods-db-Nizer.release.xcconfig"; sourceTree = "<group>"; };
+		8CF5DDDF095E31604589A94F /* Pods_db_Nizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_db_Nizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE80B371E85FD890039920F /* db-Nizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "db-Nizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE80B3A1E85FD890039920F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE80B3C1E85FD890039920F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACE80B3F1E85FD890039920F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE80B421E85FD890039920F /* db_Nizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = db_Nizer.xcdatamodel; sourceTree = "<group>"; };
+		ACE80B441E85FD890039920F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE80B471E85FD890039920F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE80B491E85FD890039920F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE80B4F1E860BA20039920F /* projectsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = projectsListTableViewCell.swift; sourceTree = "<group>"; };
+		ACE80B511E8618240039920F /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ACE80B531E8634F50039920F /* AddNewProjetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewProjetViewController.swift; sourceTree = "<group>"; };
+		ACE80B571E863EEC0039920F /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		ACE80B581E863EEC0039920F /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		ACE80B591E863EEC0039920F /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		ACE80B5A1E863EEC0039920F /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		ACE80B5B1E863EEC0039920F /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		ACE80B5C1E863EEC0039920F /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		ACE80B5E1E863EEC0039920F /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		ACE80B5F1E863EEC0039920F /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		ACE80B601E863EEC0039920F /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		ACE80B611E863EEC0039920F /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		ACE80B621E863EEC0039920F /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		ACE80B641E863EEC0039920F /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		ACE80B661E863EEC0039920F /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		ACE80B671E863EEC0039920F /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		ACE80B681E863EEC0039920F /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		ACE80B691E863EEC0039920F /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		ACE80B6A1E863EEC0039920F /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		ACE80B6C1E863EEC0039920F /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		ACE80B7E1E8647570039920F /* LOGO-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO-2.png"; sourceTree = "<group>"; };
+		ACE80B801E8652990039920F /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		ACE80B821E86758C0039920F /* addTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTaskViewController.swift; sourceTree = "<group>"; };
+		D66DD52FB5763461ABB72131 /* Pods-db-Nizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-db-Nizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-db-Nizer/Pods-db-Nizer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE80B341E85FD890039920F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B278ACEE91E94B7C9C541C /* Pods_db_Nizer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13859A35313AF2D13E7D4229 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D66DD52FB5763461ABB72131 /* Pods-db-Nizer.debug.xcconfig */,
+				03374237AD2D46AEACD008FD /* Pods-db-Nizer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F4CF6C44F16A4B17F1F4BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF5DDDF095E31604589A94F /* Pods_db_Nizer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACE80B2E1E85FD890039920F = {
+			isa = PBXGroup;
+			children = (
+				ACE80B391E85FD890039920F /* db-Nizer */,
+				ACE80B381E85FD890039920F /* Products */,
+				13859A35313AF2D13E7D4229 /* Pods */,
+				6F4CF6C44F16A4B17F1F4BBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE80B381E85FD890039920F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE80B371E85FD890039920F /* db-Nizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE80B391E85FD890039920F /* db-Nizer */ = {
+			isa = PBXGroup;
+			children = (
+				ACE80B801E8652990039920F /* APIHelper.swift */,
+				ACE80B7E1E8647570039920F /* LOGO-2.png */,
+				ACE80B551E863EEC0039920F /* IQKeyboardManagerSwift */,
+				ACE80B3A1E85FD890039920F /* AppDelegate.swift */,
+				ACE80B3C1E85FD890039920F /* ViewController.swift */,
+				ACE80B3E1E85FD890039920F /* Main.storyboard */,
+				ACE80B441E85FD890039920F /* Assets.xcassets */,
+				ACE80B461E85FD890039920F /* LaunchScreen.storyboard */,
+				ACE80B491E85FD890039920F /* Info.plist */,
+				ACE80B411E85FD890039920F /* db_Nizer.xcdatamodeld */,
+				ACE80B4F1E860BA20039920F /* projectsListTableViewCell.swift */,
+				ACE80B511E8618240039920F /* FirstViewController.swift */,
+				ACE80B531E8634F50039920F /* AddNewProjetViewController.swift */,
+				ACE80B821E86758C0039920F /* addTaskViewController.swift */,
+			);
+			path = "db-Nizer";
+			sourceTree = "<group>";
+		};
+		ACE80B551E863EEC0039920F /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				ACE80B561E863EEC0039920F /* Categories */,
+				ACE80B5D1E863EEC0039920F /* Constants */,
+				ACE80B601E863EEC0039920F /* IQKeyboardManager.swift */,
+				ACE80B611E863EEC0039920F /* IQKeyboardManagerSwift.h */,
+				ACE80B621E863EEC0039920F /* IQKeyboardReturnKeyHandler.swift */,
+				ACE80B631E863EEC0039920F /* IQTextView */,
+				ACE80B651E863EEC0039920F /* IQToolbar */,
+				ACE80B6B1E863EEC0039920F /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		ACE80B561E863EEC0039920F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				ACE80B571E863EEC0039920F /* IQNSArray+Sort.swift */,
+				ACE80B581E863EEC0039920F /* IQUIScrollView+Additions.swift */,
+				ACE80B591E863EEC0039920F /* IQUITextFieldView+Additions.swift */,
+				ACE80B5A1E863EEC0039920F /* IQUIView+Hierarchy.swift */,
+				ACE80B5B1E863EEC0039920F /* IQUIViewController+Additions.swift */,
+				ACE80B5C1E863EEC0039920F /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		ACE80B5D1E863EEC0039920F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				ACE80B5E1E863EEC0039920F /* IQKeyboardManagerConstants.swift */,
+				ACE80B5F1E863EEC0039920F /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		ACE80B631E863EEC0039920F /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				ACE80B641E863EEC0039920F /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		ACE80B651E863EEC0039920F /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				ACE80B661E863EEC0039920F /* IQBarButtonItem.swift */,
+				ACE80B671E863EEC0039920F /* IQPreviousNextView.swift */,
+				ACE80B681E863EEC0039920F /* IQTitleBarButtonItem.swift */,
+				ACE80B691E863EEC0039920F /* IQToolbar.swift */,
+				ACE80B6A1E863EEC0039920F /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		ACE80B6B1E863EEC0039920F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACE80B6C1E863EEC0039920F /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE80B361E85FD890039920F /* db-Nizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE80B4C1E85FD890039920F /* Build configuration list for PBXNativeTarget "db-Nizer" */;
+			buildPhases = (
+				3AFCB8051144211942276B58 /* [CP] Check Pods Manifest.lock */,
+				ACE80B331E85FD890039920F /* Sources */,
+				ACE80B341E85FD890039920F /* Frameworks */,
+				ACE80B351E85FD890039920F /* Resources */,
+				014DF2FD6D426AB45242AE7D /* [CP] Embed Pods Frameworks */,
+				33DAF5672EE02561280B9908 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "db-Nizer";
+			productName = "db-Nizer";
+			productReference = ACE80B371E85FD890039920F /* db-Nizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE80B2F1E85FD890039920F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = doodleblue;
+				TargetAttributes = {
+					ACE80B361E85FD890039920F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9G323BJ65P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACE80B321E85FD890039920F /* Build configuration list for PBXProject "db-Nizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE80B2E1E85FD890039920F;
+			productRefGroup = ACE80B381E85FD890039920F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE80B361E85FD890039920F /* db-Nizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE80B351E85FD890039920F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE80B481E85FD890039920F /* LaunchScreen.storyboard in Resources */,
+				ACE80B451E85FD890039920F /* Assets.xcassets in Resources */,
+				ACE80B7F1E8647570039920F /* LOGO-2.png in Resources */,
+				ACE80B7D1E863EEC0039920F /* IQKeyboardManager.bundle in Resources */,
+				ACE80B401E85FD890039920F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014DF2FD6D426AB45242AE7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-db-Nizer/Pods-db-Nizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33DAF5672EE02561280B9908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-db-Nizer/Pods-db-Nizer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AFCB8051144211942276B58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE80B331E85FD890039920F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE80B6D1E863EEC0039920F /* IQNSArray+Sort.swift in Sources */,
+				ACE80B741E863EEC0039920F /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				ACE80B771E863EEC0039920F /* IQTextView.swift in Sources */,
+				ACE80B791E863EEC0039920F /* IQPreviousNextView.swift in Sources */,
+				ACE80B811E8652990039920F /* APIHelper.swift in Sources */,
+				ACE80B521E8618240039920F /* FirstViewController.swift in Sources */,
+				ACE80B731E863EEC0039920F /* IQKeyboardManagerConstants.swift in Sources */,
+				ACE80B431E85FD890039920F /* db_Nizer.xcdatamodeld in Sources */,
+				ACE80B721E863EEC0039920F /* IQUIWindow+Hierarchy.swift in Sources */,
+				ACE80B831E86758C0039920F /* addTaskViewController.swift in Sources */,
+				ACE80B7C1E863EEC0039920F /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				ACE80B7B1E863EEC0039920F /* IQToolbar.swift in Sources */,
+				ACE80B751E863EEC0039920F /* IQKeyboardManager.swift in Sources */,
+				ACE80B7A1E863EEC0039920F /* IQTitleBarButtonItem.swift in Sources */,
+				ACE80B711E863EEC0039920F /* IQUIViewController+Additions.swift in Sources */,
+				ACE80B541E8634F50039920F /* AddNewProjetViewController.swift in Sources */,
+				ACE80B3D1E85FD890039920F /* ViewController.swift in Sources */,
+				ACE80B761E863EEC0039920F /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				ACE80B781E863EEC0039920F /* IQBarButtonItem.swift in Sources */,
+				ACE80B6F1E863EEC0039920F /* IQUITextFieldView+Additions.swift in Sources */,
+				ACE80B6E1E863EEC0039920F /* IQUIScrollView+Additions.swift in Sources */,
+				ACE80B3B1E85FD890039920F /* AppDelegate.swift in Sources */,
+				ACE80B701E863EEC0039920F /* IQUIView+Hierarchy.swift in Sources */,
+				ACE80B501E860BA20039920F /* projectsListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACE80B3E1E85FD890039920F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE80B3F1E85FD890039920F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE80B461E85FD890039920F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE80B471E85FD890039920F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE80B4A1E85FD890039920F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACE80B4B1E85FD890039920F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE80B4D1E85FD890039920F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66DD52FB5763461ABB72131 /* Pods-db-Nizer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9G323BJ65P;
+				INFOPLIST_FILE = "db-Nizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db-Nizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACE80B4E1E85FD890039920F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03374237AD2D46AEACD008FD /* Pods-db-Nizer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9G323BJ65P;
+				INFOPLIST_FILE = "db-Nizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db-Nizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE80B321E85FD890039920F /* Build configuration list for PBXProject "db-Nizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE80B4A1E85FD890039920F /* Debug */,
+				ACE80B4B1E85FD890039920F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE80B4C1E85FD890039920F /* Build configuration list for PBXNativeTarget "db-Nizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE80B4D1E85FD890039920F /* Debug */,
+				ACE80B4E1E85FD890039920F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACE80B411E85FD890039920F /* db_Nizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACE80B421E85FD890039920F /* db_Nizer.xcdatamodel */,
+			);
+			currentVersion = ACE80B421E85FD890039920F /* db_Nizer.xcdatamodel */;
+			path = db_Nizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACE80B2F1E85FD890039920F /* Project object */;
+}

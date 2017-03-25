@@ -1,0 +1,12 @@
+platform :ios, ‘9.0’
+
+target 'db-Nizer' do
+
+pod 'Alamofire', '~> 4.3'
+pod 'ReachabilitySwift', '~> 3'
+pod 'SwiftyJSON'
+use_frameworks!
+pod 'SVProgressHUD'
+
+end
+
